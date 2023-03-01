@@ -9,5 +9,7 @@
   <h1 class="text-3xl font-bold underline">
     Hello world!
   </h1>
+  
+  <?php require_once("views/layouts/footer.php") ?>
 </body>
 </html>
