@@ -5,7 +5,6 @@
       background-color: #f2f2f2;
     }
     .text-gray-500 {
-      color: #000000;
       margin: auto;
       padding: 10px;
     }
@@ -13,13 +12,16 @@
         display: flex;
         flex-wrap: wrap;
     }
+    li{
+      padding-top: 20px;
+    }
   </style>
 
 <footer class="bg-gray-900 py-4">
   <div class="container mx-auto px-4">
     <div class="grid grid-cols-3">
       <div class="text-gray-500">
-        <h3>Sitio</h3>
+        <h3><b>Sitio</b></h3>
         <ul>
           <li><a href="#">Cigarros electrónicos</a></li>
           <li><a href="#">Pods</a></li>
@@ -34,22 +36,35 @@
         <h5>2023 Vaping Cloud. Todos los derechos reservados</h5>
       </div>
       <div class="text-gray-500">
-        <h3>Medios de pago</h3>
+        <h3><b>Medios de pago</b></h3>
         <ul>
-          <li><a href="#">Inicio</a>
-              <a href="#">Servicios</a>
-              <a href="#">Contacto</a></li>
+          <a href="#">Efectivo</a>
+              <a href="#">Visa</a>
+              <a href="#">Transferencia</a>
         </ul>
         <br>
 
-        <h3>Síguenos</h3>
-        <ul>
-           <a href="https://www.facebook.com/vapingcloudperu?mibextid=LQQJ4d"><img src="public/img/fb.png" width="40px"></a>
-           <a href="https://instagram.com/vaping.cloud.peru?igshid=YWJhMjlhZTc="><img src="public/img/insta.png" width="40px"></a>
-           <a href="https://www.tiktok.com/@vapingcloudpe?_t=8ZjilAGYJcM&_r=1"><img src="public/img/tiktok.png" width="40px"></a>
-           <a href="https://youtube.com/@vapingcloudperu"><img src="public/img/ytb.png" width="40px"></a>
-           <a href="#"><img src="public/img/wtsapp.png" width="40px"></a>
-        </ul>
+        <!-- <h3><b>Síguenos</b></h3>
+        <div class="flex space-x-4 justify-center">
+           <a class="w-1/2" href="https://www.facebook.com/vapingcloudperu?mibextid=LQQJ4d"><img src="public/img/fb.png" width="40px"></a>
+           <a class="w-1/2" href="https://instagram.com/vaping.cloud.peru?igshid=YWJhMjlhZTc="><img src="public/img/insta.png" width="40px"></a>
+           <a class="w-1/2" href="https://www.tiktok.com/@vapingcloudpe?_t=8ZjilAGYJcM&_r=1"><img src="public/img/tiktok.png" width="40px"></a>
+      
+           <a class="w-1/2" href="https://youtube.com/@vapingcloudperu"><img src="public/img/ytb.png" width="40px"></a>
+           <a class="w-1/2" href="#"><img src="public/img/wtsapp.png" width="40px"></a>
+        </div>-->
+        <h3><b>Síguenos</b></h3> 
+        <table>
+        <tr>
+           <td><a href="https://www.facebook.com/vapingcloudperu?mibextid=LQQJ4d"><img src="public/img/fb.png" width="40px"></a></td>
+           <td><a href="https://instagram.com/vaping.cloud.peru?igshid=YWJhMjlhZTc="><img src="public/img/insta.png" width="40px"></a></td>
+           <td><a href="https://www.tiktok.com/@vapingcloudpe?_t=8ZjilAGYJcM&_r=1"><img src="public/img/tiktok.png" width="40px"></a></td>
+        </tr>
+        <tr>   
+           <td><a href="https://youtube.com/@vapingcloudperu"><img src="public/img/ytb.png" width="40px"></a></td>
+           <td><a href="#"><img src="public/img/wtsapp.png" width="40px"></a></td>
+        </tr>
+        </table>
       </div>
     </div>
   </div>
