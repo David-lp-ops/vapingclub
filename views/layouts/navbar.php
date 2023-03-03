@@ -1,24 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!--<link rel="stylesheet" href="../../dist/output.css"> -->
-    <title>Document</title>
-</head>
-<body>
-   
-<!doctype html>
+ <!Doctype html>
 <html>
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body class="bg-[#FFFFFF]-400">
@@ -29,7 +15,7 @@
       </span>
 
       <span class="text-4xl cursor-pointer mx-8 mt-4 md:hidden block text-[#FFFFFF]">
-        <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+        <i name="menu" class="fa-solid fa-bars" onclick="Menu(this)"></i>
       </span>
     </div>
 <center>
@@ -54,11 +40,16 @@
       </li>
       <li class="mx-4 my-6 md:my-0">
         <a href="#" class="text-xl hover:text-cyan-500 duration-500">Blog</a>
-      </li>
+      </li> 
 </center>
 
-      </button>
-<h2 class=""></h2>
+<div class="cursor-pointer mt-5 text-[#FFFFFF]">
+  <a href="#"><i class="text-[#FFFFFF] p-2 fa-solid fa-cart-shopping"></i></a>
+  <a href="#"><i class="text-[#FFFFFF] p-2 fa-solid fa-user"></i></a>
+  <a href="#"><i class="text-[#FFFFFF] p-2 fa-solid fa-magnifying-glass"></i></a>
+</div>
+
+<h2 class="#"></h2>
     </ul>
   </nav>
 
@@ -69,9 +60,7 @@
       e.name === 'menu' ? (e.name = "close",list.classList.add('top-[80px]') , list.classList.add('opacity-100')) :( e.name = "menu" ,list.classList.remove('top-[80px]'),list.classList.remove('opacity-100'))
     }
   </script>
-</body>
-
-</html>
 
 </body>
+
 </html>
