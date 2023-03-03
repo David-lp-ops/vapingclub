@@ -24,7 +24,7 @@
         <h3><b>Sitio</b></h3>
         <ul>
           <li><a href="#">Cigarros electrónicos</a></li>
-          <li><a href="#">Pods</a></li>
+          <li><a href="/vapingclub/pods">Pods</a></li>
           <li><a href="#">Accesorios</a></li>
           <li><a href="#">Promosiones</a></li>
           <li><a href="#">Nosotros</a></li>
