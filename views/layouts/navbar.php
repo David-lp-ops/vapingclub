@@ -43,7 +43,7 @@
       </li> 
 </center>
 
-<div class="cursor-pointer mt-5 text-[#FFFFFF]">
+<div class="cursor-pointer mt-5 text-[#FFFFFF] md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-[#1a1a1a] w-full right-100 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500" ">
   <a href="#"><i class="text-[#FFFFFF] p-2 fa-solid fa-cart-shopping"></i></a>
   <a href="#"><i class="text-[#FFFFFF] p-2 fa-solid fa-user"></i></a>
   <a href="#"><i class="text-[#FFFFFF] p-2 fa-solid fa-magnifying-glass"></i></a>
